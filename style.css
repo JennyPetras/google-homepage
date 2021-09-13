@@ -9,7 +9,7 @@ body {
 
 .nav-flex-container{
   display: flex;
-  flex-direction: space-between; /* justify-content */
+  justify-content: space-between; 
   padding: 10px;
   position: fixed; /* to position at top */
   width: 100%;
