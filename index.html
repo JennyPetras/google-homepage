@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- 1. THE HEAD: Meta data, show up on search engine -->
+    <head>
+        <!-- UTF covers essentially all characters/symbols-->
+        <meta charset="UTF-8">
+        <meta name="description" content="The Odin Project - Google Homepage">
+        <meta name="keywords" content="The Odin Project, Google Homepage, Jenny Petras">
+        <meta name="author" content="Jenny Petras">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title> The Odin Project - Google Homepage (jpetras) </title>
+
+        <!-- MEDIA SHARE METATAGS -->
+
+        <meta property="og:title" content="The Odin Project - Google Homepage (jpetras)">
+        <meta property="og:image" content="https://media-exp1.licdn.com/dms/image/C4D03AQHRl-ibA2l1Zw/profile-displayphoto-shrink_200_200/0/1517020844700?e=1633564800&v=beta&t=coW0b64zLW8PH5bmnrLI2tCS33CM_6-hgkWfZtTdWRI">
+        <meta property="og:description" content="Google Homepage by Jenny Petras">
+        <meta property="og:url" content="https://github.com/JennyPetras/google-homepage">
+        <meta property="og:type" content="website">
+
+        <!-- IMPORTANT - need to reference out our CSS -->
+        <link href="style.css" rel="stylesheet">
+    </head>
+
+    <!-- 2. THE BODY: Main content -->
+    <body>
+        <header>
+            <!-- Nav Bar -->
+            <div class="nav-flex-container">
+
+                <!-- Create first child -->
+                <div class="nav-flex-child-1">
+                    <!-- unordered list -->
+                    <ul class="nav-bar-left">
+                        <li> <a href=""> About </a> </li>
+                        <li> <a href=""> Store </a> </li>
+                    </ul>
+                </div>
+
+                 <!-- Create second child -->
+                 <div class="nav-flex-child-2">
+                    <!-- unordered list -->
+                    <ul class="nav-bar-right">
+                        <li> <a href=""> Gmail </a> </li>
+                        <li> <a href=""> Images </a> </li>
+                        <li> <a href=""> <img class="square-app-icon" src="assets/outline_apps_black_24dp.png" alt="square app icon"> </a> </li>
+                        <li> <a href=""> <img class="profile-icon" src="assets/outline_account_circle_black_24dp.png" alt="profile icon"> </a> </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div class="grid-box-container">
+                <!-- 1st row - Google logo (use Foogle so no malicious activity reported)-->
+                <div class="grid-first-row">
+                    <img class="google-logo" src="https://cdn.statically.io/gh/TheOdinProject/curriculum/284f0cdc998be7e4751e29e8458323ad5d320303/foundations/the_front_end/project_html_css/imgs/00.png" alt="google logo pic">
+                </div>
+
+                <!-- 2nd row - search icon -->
+                <div class="grid-second-row-search-icon">
+                    <img class="search-icon" src="assets/outline_search_black_24dp.png" alt="search icon">
+                </div>
+
+                <!-- 2nd row - search bar input -->
+                <div class="grid-second-row">
+                    <input class ="search-bar" id="search-bar" type="text" autofocus> <!-- autofocus is to load blinker in search bar -->
+                </div>
+
+                <!-- 3rd row - first button -->
+                <div class="grid-third-row-firstbutton">
+                    <input class="first-button" type="submit" value="Google Search">
+                </div>
+                
+                 <!-- 3rd row - first button -->
+                 <div class="grid-third-row-secondbutton">
+                    <input class="second-button" type="submit" value="I'm Feeling Lucky">
+                </div>
+            </div> <!-- CLOSE - grid-box-container -->
+
+             <!-- Bottom Tray -->
+            <div class="tray-flex-container">
+                <div class="tray-flex-child-1">
+                    <ul class="tray-bar-left"> 
+                        <li> <a href=""> Advertising </a> </li>
+                        <li> <a href=""> Business </a> </li>
+                        <li> <a href=""> How Search works</a> </li>
+                    </ul>
+                </div>
+
+                <div class="tray-flex-child-2">  
+                    <ul class="tray-bar-right"> 
+                        <li> <a href=""> Privacy </a> </li>
+                        <li> <a href=""> Terms </a> </li>
+                        <li> <a href=""> Settings </a> </li>
+                    </ul>
+                </div>
+            </div>
+        </main>
+    </body>
+        <!-- 3. THE FOOTER: Credits, references, links, etc-->
+    <footer>
+    </footer>
+</html>

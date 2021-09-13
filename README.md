@@ -1,1 +1,1 @@
-This is my first project
+This is my first web based project using HTML and CSS. The goal of this project was to implement what I learned about HTML and CSS into a google homemade project where I essentially replicated the google homepage with a few minor differences. 
